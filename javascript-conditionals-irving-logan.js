@@ -32,9 +32,26 @@ if(trafficLight === "green") {
     console.log("stop")
 }
 // Write a statement that takes two variables that are numbers and outputs the larger number. If the numbers are equal, output "the numbers are the same".
-
+// var numbers1 = 2022
+var numbers1 = 7
+var numbers2 = 7
+if(numbers1 > numbers2){
+  console.log(numbers1)
+}
+else if (numbers1 === numbers2) {
+  console.log("the numbers are the same")
+}
 // Write a statement that takes a variable of a number and logs whether the number is odd, even, or zero.
-
+var number = 8
+if (number === 0){
+  console.log("the number is zero")
+}
+else if(number % 2 == 0){
+  console.log("Even")
+}
+else if (number % 2 == 1){
+  console.log("odd")
+}
 // STRETCH Challenges
 // Write a statement that takes a variable of a grade percentage and logs the letter grade for that percentage, if the grade is 100% log "perfect score", if the grade is zero log "no grade available."
 
