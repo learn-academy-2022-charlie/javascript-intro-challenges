@@ -53,16 +53,16 @@ var theQuestion = "life, the universe, and everything"
 var theAnswer = 42
 
 // 21. Write the code that will log theAnswer divided by 2.
-console.log()
+console.log(theAnswer/2)
 // 22. Write the code that will log the length of theQuestion.
-console.log()
+console.log(theQuestion.length)
 // 23. Write the code that will log the index of the character "f" in the theQuestion.
-console.log()
+console.log(theQuestion.indexOf("f"))
 // 24. Write the code that will log the concatenation of the two variables.
-console.log()
+console.log(theAnswer+theQuestion)
 // 25. Write the code that will log "the universe".
-console.log()
+console.log(theQuestion.slice(6,18))
 // 26. Write the code that will log the character "l" from theQuestion.
-console.log()
+console.log(theQuestion[0])
 // 27. Write the code that will log whether theQuestion.length is greater than theAnswer.
-console.log()
+console.log(theQuestion.length > theAnswer)
