@@ -64,12 +64,28 @@ console.log('LEARN'[0] === 'l')
 console.log('LEARN'[0] === 'L')
 // Consider the variables:
 
-// var theQuestion = "life, the universe, and everything"
-// var theAnswer = 42
+var theQuestion = "life, the universe, and everything"
+var theAnswer = 42
+
 // Write the code that will log theAnswer divided by 2.
+console.log(theAnswer / 2)
+
 // Write the code that will log the length of theQuestion.
+console.log(theQuestion.length)
+
 // Write the code that will log the index of the character "f" in the theQuestion.
+console.log(theQuestion.indexOf("f"))
+
 // Write the code that will log the concatenation of the two variables.
+console.log(theQuestion + " " + theAnswer)
+
 // Write the code that will log "the universe".
+// console.log(theQuestion.indexOf("the universe")) --> used to find starting index
+console.log(theQuestion.slice(6,18))
+
 // Write the code that will log the character "l" from theQuestion.
+console.log(theQuestion.indexOf("l"))
+
 // Write the code that will log whether theQuestion.length is greater than theAnswer.
+console.log(theQuestion.length > String(theAnswer).length) // this example changed theAnswer into a string which calculates to the number 2
+console.log(theQuestion.length > theAnswer.length) // in this case, the answer is treated as a number and theAnswer.length returns 42 which is greater than the length of the string theQuestion
