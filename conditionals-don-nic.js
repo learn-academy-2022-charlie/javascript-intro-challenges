@@ -51,7 +51,35 @@ if(num3 === 0){
 
 // STRETCH Challenges
 // Write a statement that takes a variable of a grade percentage and logs the letter grade for that percentage, if the grade is 100% log "perfect score", if the grade is zero log "no grade available."
+var myGrade = 84.1
+if(myGrade === 100) {
+    console.log("perfect score")
+} else if (myGrade < 100 && myGrade >= 90) {
+    console.log("A")
+} else if (myGrade < 90 && myGrade >= 80) {
+    console.log("B")
+} else if (myGrade < 80 && myGrade >= 70) {
+    console.log("C")
+} else if (myGrade < 70 && myGrade >= 60) {
+    console.log("D")
+} else if (myGrade === 0){
+    console.log("no grade available")
+} else {
+    console.log("F")
+} 
 
 // Write a statement that takes a variable of a boolean, number, or string data type and logs the data type of the variable. HINT: Check out the JavaScript typeof operator.
 
+var diffVar = 2379823497824397823549782345978;
+console.log(typeof diffVar)
+
 // Create a password checker using a single conditional statement. If a user inputs a password with 12 or more characters AND the password includes !, then log "That is a mighty strong password!" If the user’s password is 8 or more characters OR includes !, then log "That password is strong enough." Log "That is not a valid password." for every other input.
+
+var passWord = "dfjl!"
+if (passWord.length >= 12 && passWord.includes("!")) {
+    console.log("That is a might strong password!")
+}else if(passWord.length >= 8 || passWord.includes("!")) {
+    console.log("That password is strong enough.")
+}else {
+    console.log("That is not a valid password.")
+}
