@@ -3,6 +3,9 @@ var num1 = 34
 var num2 = 71
 console.log(num1 + num2)   //->logs 105
 // Write the code that will log the outcome of 67 subtracted from 123.
+var num3 = 123
+var num4 = 67
+console.log(num3 - num4)  // ->logs 
 // Write the code that will log the outcome of 56 multiplied by 23.
 // Write the code that will log the outcome of 45 divided by 5.
 // Write the code that will log the outcome of 5 to the power of 7.
