@@ -33,7 +33,19 @@ num2 = 5
 console.log(num1 / num2)
 
 // Write the code that will log the outcome of 5 to the power of 7.
+
+num1 = 5
+num2 = 7
+
+console.log(num1 ** num2)
+
 // Write the code that will log the whole number remainder of 33 divided by 6.
+
+num1 = 33
+num2 = 6
+
+console.log(33 % 6)
+
 // Write the code that will log the length of a string containing your name.
 // Write the code that will log whether your string includes the letter "e"?
 // Write the code that will log the character at the first index of the string.
