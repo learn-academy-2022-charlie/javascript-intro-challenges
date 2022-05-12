@@ -55,6 +55,9 @@ for (i = 0; i < nums.length; i++) {
 const myString = "learn student"
 
 // Create the code that will log the number of times the letter "e" occurs in the string.
+for (i = 0; i < myString.length; i++){
+    if()
+}
 
 // Create the code that will log every other character in the string.
 
