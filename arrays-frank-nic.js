@@ -78,15 +78,25 @@ console.log(Names1.sort())
 console.log(Names2.sort())
 
 // Write the code that sorts the names in reverse alphabetical order.
-Names1.sort
-
+var names1Sorted = Names1.sort()
+var names2Sorted = Names2.sort()
+console.log(names1Sorted.reverse())
+console.log(names2Sorted.reverse())
 // Write the code that sorts all the names in alphabetical order in a single array.
+var totalNames = Names1.concat(Names2)
+console.log(totalNames)
+console.log(totalNames.sort())
 
 // Consider the variables:
 
-// var numbers = [42, 221, 71, 7, 18, 87]
+var numbers = [42, 221, 71, 7, 18, 87]
 // var oddIndexes = []
+
 // Write the code that logs the values from the numbers array that are at odd indexes.
+console.log(numbers[1])
+console.log(numbers[3])
+console.log(numbers[5])
 
 // Write the code that adds the values from odd indexes into the oddIndexes array.
-
+var oddIndexes = [numbers[1], numbers[3], numbers[5]]
+console.log(oddIndexes)
