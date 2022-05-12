@@ -44,19 +44,22 @@ numbers.reverse()
 var numbers2 = [0]
 numbers.reverse()
 var comboNumbers = numbers.concat(numbers2)
-console.log(comboNumbers)
+// console.log(comboNumbers)
 comboNumbers.reverse()
-console.log(comboNumbers)
+// console.log(comboNumbers)
 
 // Consider the variable:
 
-// var numSet = [2, 13, 6, 8, 4, 2]
-// Write the code that finds the index of the first appearance of the number 2.
+var numSet = [2, 13, 6, 8, 4, 2]
 
+// Write the code that finds the index of the first appearance of the number 2.
+numSet.indexOf(2)
+// console.log(numSet.indexOf(2))
 // Write the code that finds the index of the last appearance of the number 2.
+// console.log(numSet.lastIndexOf(2))
 
 // Write the code that returns the number at the third index.
-
+console.log(numSet.slice(3, 4))
 // Consider the variable:
 
 // var characters = ["y", "a", "r", "r", "a"]
