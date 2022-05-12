@@ -36,14 +36,31 @@ console.log(chipDip)
 
 // Consider the variable:
 
-// var numbers = [2, 4, 6, 8, 10]
+var numbers = [2, 4, 6, 8, 10]
+
 // Write the code that will add the number 0 to the beginning of the array.
+console.log(numbers)
+numbers.unshift(0)
+console.log(numbers)
 
 // Write the code that will add the number 12 to the end of the array.
 
+numbers.push(12)
+console.log(numbers)
+
 // Write the code that will remove the first number from the array.
 
+numbers.shift();
+console.log(numbers)
+
 // Write the code that will add the number 0 to the beginning of the array without altering the original array. HINT: it's not .unshift You'll have to get creative! ;)
+
+// [...arrayName]
+numbers = [2, 4, 6, 8, 10]
+var newNumbersArray = [...numbers] // makes a copy
+newNumbersArray.unshift(0)
+console.log("Numbers Array: ", numbers)
+console.log("New Numbers Array: ",newNumbersArray)
 
 // Consider the variable:
 
