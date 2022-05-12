@@ -9,7 +9,7 @@
     // for(let i = 1; i <= 20; i+=2 ) {
     //     console.log(i)
     // }
- 
+
 // 3. Create a for loop that logs the result of each number from 1 - 20 tripled.
     // for(let i = 1; i <= 20; i++ ) {
     //     console.log("Triple " + i + " = " + i * 3)
@@ -29,11 +29,25 @@
 
 const nums = [3, 57, -9, 20, 67]
 // 5. Create the code that will log the largest number from the array.
-
+// let bigNum = nums[0]
+// for(let i = 0; i < nums.length; i++){
+//   if(nums[i] > bigNum){
+//     bigNum = nums[i]
+//   }
+// }
+// console.log(bigNum)
 // 6. Create the code that will log the smallest number from the array.
-
+// let smallNum = nums[0]
+// for(let i = 0; i < nums.length; i++){
+//   if(nums[i] < smallNum){
+//     smallNum = nums[i]
+//   }
+// }
+// console.log(smallNum)
 // 7. Create the code that will log the remainder of each number when divided by 2.
-
+for(let i = 0; i < nums.length; i++){
+  console.log(nums[i] % 2)
+}
 // Expected output: 1, 1, -1, 0, 1
 
 
