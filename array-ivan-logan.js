@@ -75,14 +75,41 @@ console.log(characters.join(""))
 
 
 // Write the code that brings all the letters in the charsReversed array together into a string without separators.
+console.log(charsReversed.join(""))
+
 
 // Create two arrays consisting of three first names of your cohort members in each.
 
+var namesOne = ["Ivan", "Logan", "Collin" ] 
+var namesTwo = ["James", "JB", "Mary"]
+
 // Write the code that sorts the names in alphabetical order.
+namesOne.sort()
+namesTwo.sort()
+console.log(namesOne, namesTwo)
 
 // Write the code that sorts the names in reverse alphabetical order.
+namesOne.sort()
+namesTwo.sort()
+
+console.log(namesOne.reverse(), namesTwo.reverse())
 
 // Write the code that sorts all the names in alphabetical order in a single array.
+var allNames = namesOne.concat(namesTwo)
 
+console.log(allNames.sort())
 
+// 
+var numbers = [42, 221, 71, 7, 18, 87]
+var oddIndexes = []
 
+// Write the code that logs the values from the numbers array that are at odd indexes.
+var oddOne = numbers.indexOf(221)
+var oddTwo = numbers.indexOf(7)
+var oddThree = numbers.indexOf(87)
+
+console.log(oddOne, oddTwo, oddThree)
+
+// Write the code that adds the values from odd indexes into the oddIndexes array.
+
+console.log(oddIndexes.concat([oddOne, oddTwo, oddThree]))
