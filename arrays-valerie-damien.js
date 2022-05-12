@@ -55,17 +55,29 @@ var characters = ["y", "a", "r", "r", "a"]
 // console.log(charsReversed.join(""))
 
 // Create two arrays consisting of three first names of your cohort members in each.
+// var names = ["denise", "collin", "davon"]
+// var names1 = ["don", "giovanna", "frank"]
 
 // Write the code that sorts the names in alphabetical order.
-//
+// names.sort()
+// console.log(names)
 // Write the code that sorts the names in reverse alphabetical order.
-//
+// names.sort().reverse()
+// console.log(names)
 // Write the code that sorts all the names in alphabetical order in a single array.
-//
+// console.log(names.concat(names1).sort())
 // Consider the variables:
-//
-// var numbers = [42, 221, 71, 7, 18, 87]
-// var oddIndexes = []
+
+var numbers = [42, 221, 71, 7, 18, 87]
+var oddIndexes = []
 // Write the code that logs the values from the numbers array that are at odd indexes.
-//
+for(let index = 1;index<numbers.length;index += 2){
+  console.log(numbers[index])
+}
+
 // Write the code that adds the values from odd indexes into the oddIndexes array.
+for(var index = 1;index<numbers.length;index += 2){
+  oddIndexes.push(numbers[index])
+console.log(oddIndexes)}
+
+console.log(oddIndexes)
