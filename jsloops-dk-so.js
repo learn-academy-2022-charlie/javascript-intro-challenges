@@ -25,6 +25,13 @@ for(let i = 1; i < 21; i++){
 // Consider this variable:
 const nums = [3, 57, -9, 20, 67]
 // Create the code that will log the largest number from the array.
+var blackPanther = 0
+for(let i = 0;i < nums.length; i++){
+  if(nums[i] > blackPanther){
+    blackPanther = nums[i] 
+  }
+}
+console.log(blackPanther);
 
 // Create the code that will log the smallest number from the array.
 
