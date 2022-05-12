@@ -64,8 +64,12 @@ console.log("New Numbers Array: ",newNumbersArray)
 
 // Consider the variable:
 
-// var numSet = [2, 13, 6, 8, 4, 2]
+ var numSet = [2, 13, 6, 8, 4, 2]
 // Write the code that finds the index of the first appearance of the number 2.
+
+var indexOfNumber = numSet.indexOf(2)
+console.log(indexOfNumber)
+console.log(numSet.indexOf(2))
 
 // Write the code that finds the index of the last appearance of the number 2.
 
