@@ -32,18 +32,18 @@ var number0 = [0]
 console.log(number0.concat(numbers)); // 0 + 2 , 4 , 6, 8
 // Consider the variable:
 
-// var numSet = [2, 13, 6, 8, 4, 2]
+var numSet = [2, 13, 6, 8, 4, 2]
 // Write the code that finds the index of the first appearance of the number 2.
-
+console.log(numSet.indexOf(2));
 // Write the code that finds the index of the last appearance of the number 2.
-
+console.log(numSet.lastIndexOf(2))
 // Write the code that returns the number at the third index.
-
+console.log(numSet.slice(3, 4));
 // Consider the variable:
 
-// var characters = ["y", "a", "r", "r", "a"]
+var characters = ["y", "a", "r", "r", "a"]
 // Write the code that brings all the letters in the characters array together into a string.
-
+console.log(characters.join(""));
 // Write the code that reverses the order of the letters in the characters array and saves it into a variable called charsReversed.
 
 // Write the code that brings all the letters in the charsReversed array together into a string with an asterisk between each letter.
