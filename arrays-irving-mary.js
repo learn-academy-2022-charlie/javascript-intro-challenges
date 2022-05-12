@@ -29,9 +29,9 @@
 
 // var numSet = [2, 13, 6, 8, 4, 2]
 // Write the code that finds the index of the first appearance of the number 2.
-// console.log(numSet[0])
-// Write the code that finds the index of the last appearance of the number 2.
-var numSet = [2, 13, 6, 8, 4, 2]
-console.log(numSet[5])
-// Write the code that returns the number at the third index.
-console.log(numSet[2])
+// // console.log(numSet[0])
+// // Write the code that finds the index of the last appearance of the number 2.
+// var numSet = [2, 13, 6, 8, 4, 2]
+// console.log(numSet[5])
+// // Write the code that returns the number at the third index.
+// console.log(numSet[2])
