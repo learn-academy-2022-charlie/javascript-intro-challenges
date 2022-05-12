@@ -35,3 +35,20 @@
 // console.log(numSet[5])
 // // Write the code that returns the number at the third index.
 // console.log(numSet[2])
+
+var characters = ["y", "a", "r", "r", "a"]
+Write the code that brings all the letters in the characters array together into a string.
+
+Write the code that reverses the order of the letters in the characters array and saves it into a variable called charsReversed.
+
+Write the code that brings all the letters in the charsReversed array together into a string with an asterisk between each letter.
+
+Write the code that brings all the letters in the charsReversed array together into a string without separators.
+
+Create two arrays consisting of three first names of your cohort members in each.
+
+Write the code that sorts the names in alphabetical order.
+
+Write the code that sorts the names in reverse alphabetical order.
+
+Write the code that sorts all the names in alphabetical order in a single array.
