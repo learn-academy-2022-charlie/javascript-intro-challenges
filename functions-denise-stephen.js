@@ -91,6 +91,15 @@ const isLonger = (string1 , string2) => {
 console.log(isLonger(123, "1234"));
 
 // Write a function named greaterNum that takes two numbers as arguments and returns whichever number is the greater (higher) number.
+const greaterNum = (num1 , num2) => {
+    if(num1 > num2){
+        return num1
+        
+    }else{
+        return num2
+    }
+}
+console.log(greaterNum(123, 23));
 
 // Write a function named yelling that takes a string as an argument and return the string in all uppercase case letters.
 
