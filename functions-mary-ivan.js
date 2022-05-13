@@ -20,12 +20,30 @@
 // Write a function named triple that takes a number as an argument and returns the result of that number multiplied by 3.
 //
 // Write a function named multiply that takes two numbers as arguments and returns the result of the numbers multiplied together.
-const multiply = (num1, num2) => {
-  return (num1 * num2)
-}
-console.log(multiply(10,26))
+// const multiply = (num1, num2) => {
+//   return (num1 * num2)
+// }
+// console.log(multiply(10,26))
 // Write a function named divisibleBy that takes two numbers as arguments and returns whether the first number is evenly divisible by the second so that divisibleBy(10, 5) logs "10 is evenly divisible by 5".
-//
+
+  // const divisibleBy = (num3, num4) =>  {
+  //   if(isInteger(num3 / num4) {
+  //    return `${num3} is evenly divisible by ${num4}`
+  //   }
+  // } console.log(divisibleBy(10,5))
+
+
+
+    const divisibleBy = (num3, num4) =>  {
+    if(num3 % num4 === 0 ) {
+     return `${num3} is evenly divisible by ${num4}`
+    }
+  } 
+  console.log(divisibleBy(10,5))
+
+  
+
+
 // Write a function named assignGrade that takes a number score as an argument and returns the letter grade for the score.
 //
 // Write a function named isLonger that takes two strings as arguments and returns the string that contains the most characters.
