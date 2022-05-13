@@ -1,3 +1,4 @@
+
 //Write the code that will log the outcome of 34 added to 71.
 var num1 = 34 
 var num2 = 71
@@ -19,4 +20,5 @@ console.log(num1 + num2)
 // Write the code that will log the character at the first index of the string.
 
 // Write the code that will log the string in all uppercase letters.
+
 
