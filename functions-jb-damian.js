@@ -1,14 +1,30 @@
 // Write a function named marco that returns "polo".
-    const marco = () => {
-        return "polo"
-    }
- console.log(marco())
+//     const marco = () => {
+//         return "polo"
+//     }
+//  console.log(marco())
 // Write a function named greeting that takes a name as an argument and returns "Welcome, <person's name here>!"
-    const greeting = (name) => { 
-        return `Welcome, ${name}!`
-    }
-    console.log(greeting("Damian"))
+    // const greeting = (name) => { 
+    //     return `Welcome, ${name}!`
+    // }
+    // console.log(greeting("Damian"))
 // Write a function named oddOrEven that takes a number as an argument and returns whether the number is odd or even.
+    // function = oddOrEven
+    // arguements = number
+    // returns string of 'even' or 'odd'
+    // conditional
+        // modulo = to determine if even or odd
+
+    const oddOrEven = (number) => {
+        if(number % 2 === 0) {
+            return "even"
+        } else {
+            return "odd"
+        }
+    }
+
+    console.log(oddOrEven(7))  // returns 'odd'
+    console.log(oddOrEven(10)) // returns 'even'
 
 // Write a function named triple that takes a number as an argument and returns the result of that number multiplied by 3.
 
