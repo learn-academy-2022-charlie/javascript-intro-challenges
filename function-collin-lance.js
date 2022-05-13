@@ -25,10 +25,16 @@ const oddOrEven = (num) => {
 console.log(oddOrEven(7))
 
 // Write a function named triple that takes a number as an argument and returns the result of that number multiplied by 3.
-
-
+    const triple = (num) => {
+        return num*3
+    }
+        console.log(triple(4))
 
 // Write a function named multiply that takes two numbers as arguments and returns the result of the numbers multiplied together.
+const multiply = (num1, num2) => {
+    return num1 * num2
+}
+console.log(multiply(2, 76))
 
 // Write a function named divisibleBy that takes two numbers as arguments and returns whether the first number is evenly divisible by the second so that divisibleBy(10, 5) logs "10 is evenly divisible by 5".
 
