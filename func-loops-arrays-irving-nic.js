@@ -10,7 +10,7 @@
         // Takes in an argument of array
     //assigned an empty array variable to newArr
     //Create a for loop to iterate through array
-        //.push() array times three into the newArr 
+        //.push() array times three into the newArr
     //Return newArr
     //Console.log(mult5(testArr1))
 
@@ -28,10 +28,10 @@
 // var testArr2 = [0, 2, -7, 3, 5, 8, 10, 13]
 // // --> [-7, 3, 5, 13]
 
-    //Create a function named oddArray 
+    //Create a function named oddArray
         //It takes in an argument of array
-    // Assign a new variable with the name newOddArray 
-    //Create a for loop to cycle through the arrays indexes 
+    // Assign a new variable with the name newOddArray
+    //Create a for loop to cycle through the arrays indexes
         //Inside of the loop create an if statement to see if the numbers are odd
             //If odd push odd numbers into newOddArray
         //Return newOddArray
@@ -54,12 +54,12 @@
 // // --> "nicework"
 
     //Create a function named letterFunc
-        //It takes in an argument of array 
-    //Assign a new variable with the name letters which equals an empty array 
+        //It takes in an argument of array
+    //Assign a new variable with the name letters which equals an empty array
     //Create a for loop to iterate through the array
         //Inside the for compare if the indexes in the array are a string using the tyepof method
             //If a string .push() into the new letters array
-        //Return letters.join('') which turns the array into a string 
+        //Return letters.join('') which turns the array into a string
         //console.log(letterFunc(comboArr))
 
 // const letterFunc = (array) => {
@@ -71,7 +71,7 @@
 //     }
 //     return letters.join('')
 // }
- 
+
 // console.log(letterFunc(comboArr))
 
 // Create a function that takes in an array of numbers and returns the sum.
@@ -84,9 +84,9 @@
         //It will take in one argument named array
     //Assign a new variable to 0 named newSum
         //Assign it to zero because we will add the indexes of the array to 0
-    //Create a for loop to loop through the indexes 
+    //Create a for loop to loop through the indexes
         //As it loops through it will add the indexes to the newSum variable
-    //Return newSum 
+    //Return newSum
     //Console.log(sum(addThese2))
 
 // const sum = (array) => {
@@ -97,13 +97,31 @@
 //         return newSum
 //       }
 //       console.log(sum(addThese2))
-  
+
 
 
 // Create a function that takes in an array of numbers and returns the index of the largest number.
 var indexHighestNumber = [1, 4, 2, 3]
 // // --> 1
 
+// create a function with one argument
+//assign a variable to zero
+//create a for loo that iterates trogh the arrays
+// if statement thet compares it to the largest number
+//reasign number variable to the largest number
+//return arrya index of highest number
+// console log the function
+
+
+const largestNum = (array) => {
+  let number = 0
+ for(let i=0; i<array.length; i++){
+   if(array[i] > number){
+     number = array[i]
+   }
+ }return array.indexOf(number)
+}
+console.log(largestNum(indexHighestNumber))
 
 
 // STRETCH Challenges
