@@ -80,15 +80,30 @@ const largeNum = (array) => {
     return array.indexOf(bigNum)
 }
 
-console.log(largeNum(indexHighestNumber))
-console.log(largeNum(lowNumbers))
+// console.log(largeNum(indexHighestNumber))
+// console.log(largeNum(lowNumbers))
 
 // STRETCH Challenges
 
 // Create a function that takes in two arrays and returns one array with no duplicate values.
-// var arr1 = [3, 7, 10, 5, 4, 3, 3]
-// var arr2 = [7, 8, 2, 3, 1, 5, 4]
+var arr1 = [3, 7, 10, 5, 4, 3, 3]
+var arr2 = [7, 8, 2, 3, 1, 5, 4]
 // // --> [3, 7, 10, 5, 4, 8, 2, 1]
+const mergeArr = (arr1, arr2) => {
+    let mergedArr = [...arr1]
+
+    for(let i = 0; i < arr2.length; i++) {
+        if(arr1.indexOf(arr2[i]) === -1) {
+            mergedArr.push(arr2[i])
+        }
+    }
+    return mergedArr
+}
+
+console.log(mergeArr(arr1, arr2))
+
+// function works, but needs to take into account same numbers in the first array... will need to be corrected
+
 // Create a function that takes in two numbers as arguments and returns an array the length of the first number filled with the second number.
 // var arrayLength = 6
 // var arrayValue = 0
