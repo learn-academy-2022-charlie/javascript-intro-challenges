@@ -18,18 +18,36 @@ const newArrayOdd = (array) => {
     let newArray1 = []
     for(let i = 0; i < array.length; i++) {
         if (array[i] % 2 !=0)
-        newArray1.push(array [i]) 
+        newArray1.push(array [i])
     }
     return newArray1
 }
 console.log(newArrayOdd(testArr2))
 
 // Write a function that takes in an array of numbers and letters and returns a string with only the letters. HINT: use the typeof method.
-// var comboArr = [7, "n", true, "i", "c", 10, "e", -388, "w", 3, "o", 0, "r", false, "k"]
+var comboArr = [7, "n", true, "i", "c", 10, "e", -388, "w", 3, "o", 0, "r", false, "k"]
 // // --> "nicework"
+const arrayLetters = (array) => {
+  let arrLetters1 = []
+  for(let i = 0; i < array.length; i++) {
+    if(typeof array[i] === string)
+    arrayLetters1.push(array[1])
+  }
+  return arrLetters1
+}
+console.log(arrayLetters(comboArr))
+
+
 // Create a function that takes in an array of numbers and returns the sum.
 // var addThese1 = [1, 2, 3, 4]
 // // --> 10
+
+const arrSum = (array) => {
+  let sum = 0
+  for(let i = 0; i < array.length; i++) {
+
+  }
+}
 
 // var addThese2 = []
 // // --> 0
