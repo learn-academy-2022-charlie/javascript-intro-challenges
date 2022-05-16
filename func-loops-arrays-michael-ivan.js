@@ -42,9 +42,35 @@ const oddArray = (array) => {
 console.log(oddArray(testArr2))
 // Output: [ -7, 3, 5, 13 ]
 
+
+
 // Write a function that takes in an array of numbers and letters and returns a string with only the letters. HINT: use the typeof method.
-// var comboArr = [7, "n", true, "i", "c", 10, "e", -388, "w", 3, "o", 0, "r", false, "k"]
+ var comboArr = [7, "n", true, "i", "c", 10, "e", -388, "w", 3, "o", 0, "r", false, "k"]
+
+
+const lettersOnly = (array) => {
+    for(let i = 0; i < array.length; i++){
+    if(array[i] === string){
+        lettersOnly.push(array)
+    }
+    }
+}
+    console.log(typeof 7)
+        console.log(typeof "k")
+
+
+
+
+
+
+
+
+
 // // --> "nicework"
+
+
+
+
 // Create a function that takes in an array of numbers and returns the sum.
 // var addThese1 = [1, 2, 3, 4]
 // // --> 10
