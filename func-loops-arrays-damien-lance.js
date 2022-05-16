@@ -30,8 +30,21 @@ const findOdds = (array) => {
 console.log(findOdds(testArr2))
 
 // Write a function that takes in an array of numbers and letters and returns a string with only the letters. HINT: use the typeof method.
-// var comboArr = [7, "n", true, "i", "c", 10, "e", -388, "w", 3, "o", 0, "r", false, "k"]
+var comboArr = [7, "n", true, "i", "c", 10, "e", -388, "w", 3, "o", 0, "r", false, "k"]
 // // --> "nicework"
+const stringsOnly = (array) =>{
+    let newString = ""
+    for(let i = 0; i < array.length; i++){
+        if(typeof array[i] === "string" ) {
+            newString += array[i]
+        }
+    }
+    return newString
+}
+
+console.log(stringsOnly(comboArr))
+
+
 
 // Create a function that takes in an array of numbers and returns the sum.
 // var addThese1 = [1, 2, 3, 4]
