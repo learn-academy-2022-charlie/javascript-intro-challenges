@@ -13,7 +13,7 @@ const mult3 = (array) => {
 
 // console.log(mult3(testArr1))
 
-// Write a function that takes in an array of numbers and returns a new array with only odd numbers.
+// 2. Write a function that takes in an array of numbers and returns a new array with only odd numbers.
 var testArr2 = [0, 2, -7, 3, 5, 8, 10, 13]
 // // --> [-7, 3, 5, 13]
 
@@ -27,9 +27,9 @@ const findOdds = (array) => {
     return newArray
 }
 
-console.log(findOdds(testArr2))
+// console.log(findOdds(testArr2))
 
-// Write a function that takes in an array of numbers and letters and returns a string with only the letters. HINT: use the typeof method.
+// 3. Write a function that takes in an array of numbers and letters and returns a string with only the letters. HINT: use the typeof method.
 var comboArr = [7, "n", true, "i", "c", 10, "e", -388, "w", 3, "o", 0, "r", false, "k"]
 // // --> "nicework"
 const stringsOnly = (array) =>{
@@ -42,19 +42,47 @@ const stringsOnly = (array) =>{
     return newString
 }
 
-console.log(stringsOnly(comboArr))
+// console.log(stringsOnly(comboArr))
 
 
 
-// Create a function that takes in an array of numbers and returns the sum.
-// var addThese1 = [1, 2, 3, 4]
+// 4. Create a function that takes in an array of numbers and returns the sum.
+var addThese1 = [1, 2, 3, 4]
 // // --> 10
 
-// var addThese2 = []
+var addThese2 = []
 // // --> 0
-// Create a function that takes in an array of numbers and returns the index of the largest number.
-// var indexHighestNumber = [1, 4, 2, 3]
+
+const sumArray = (array) => {
+    let sum = 0
+    for(let i = 0; i < array.length; i++) {
+        sum = sum + array[i]
+        //  sum += array[i]
+    }
+    return sum
+}
+
+// console.log(sumArray(addThese1))
+// console.log(sumArray(addThese2))
+
+// 5. Create a function that takes in an array of numbers and returns the index of the largest number.
+var indexHighestNumber = [1, 4, 2, 3]
+var lowNumbers = [-100, -36, -110, -1]
 // // --> 1
+
+const largeNum = (array) => {
+    let bigNum = array[0]
+    for(let i = 0; i < array.length; i++) {
+        if(array[i] > bigNum) {
+            bigNum = array[i]
+        }
+    }
+    return array.indexOf(bigNum)
+}
+
+console.log(largeNum(indexHighestNumber))
+console.log(largeNum(lowNumbers))
+
 // STRETCH Challenges
 
 // Create a function that takes in two arrays and returns one array with no duplicate values.
