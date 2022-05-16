@@ -27,15 +27,20 @@ var testArr2 = [0, 2, -7, 3, 5, 8, 10, 13]
 
 const oddArray = (array) => {
     let emptyArray = []
+    // emptyArray is empty will have elements pushed into it later
     for (let i = 0; i < array.length; i++) {
-        if (i % 2 === 1) {
-            emptyArray.push(array[i])
+        // start at index 0, end at the last element of the array, iterate each element
+        if (array[i] % 2 === 1 || array[i] % 2 === -1) {
+            // if the element in the array is odd (regardless if it's positive or negative)...
+            emptyArray.push(array[i])}
+            // ... then the element into emptyArray
         }
-    } return emptyArray
+                return emptyArray
+                // at the end of all the entire logic, show the results of emptyArray
 }
-// the function is outputting only numbers at the odd index as of now. Will return to this later.
 
 console.log(oddArray(testArr2))
+// Output: [ -7, 3, 5, 13 ]
 
 // Write a function that takes in an array of numbers and letters and returns a string with only the letters. HINT: use the typeof method.
 // var comboArr = [7, "n", true, "i", "c", 10, "e", -388, "w", 3, "o", 0, "r", false, "k"]
