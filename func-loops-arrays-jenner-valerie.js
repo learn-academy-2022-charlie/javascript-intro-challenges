@@ -38,17 +38,51 @@ console.log(findOddNumbers(testArr2)) // [ -7, 3, 5, 13 ]
 var comboArr = [7, "n", true, "i", "c", 10, "e", -388, "w", 3, "o", 0, "r", false, "k"]
 // // --> "nicework"
 
-
+const onlyLetters = (array) => {
+  let letters = ""
+  for(let i = 0; i < array.length; i++){
+    if(typeof array[i] === "string"){
+      letters = letters + array[i]
+    }
+  }
+  return letters
+}
+console.log(onlyLetters(comboArr))
 
 // Create a function that takes in an array of numbers and returns the sum.
-// var addThese1 = [1, 2, 3, 4]
+var addThese1 = [1, 2, 3, 4]
 // // --> 10
 
-// var addThese2 = []
+const sum = (array) => {
+  let total = 0
+  for(let i = 0; i <array.length; i++){
+    total = total + array[i]
+  }
+  return total
+}
+console.log(sum(addThese1))
+
+
+var addThese2 = []
+console.log(sum(addThese2))
 // // --> 0
+
 // Create a function that takes in an array of numbers and returns the index of the largest number.
-// var indexHighestNumber = [1, 4, 2, 3]
+var indexHighestNumber = [1, 4, 2, 3, 5]
 // // --> 1
+
+const largeNum = (array) => {
+  let large = 0
+  let index = 0
+  for(let i = 0; i <array.length; i++){
+    if(array[i] > large){
+      large = array[i]
+      index = i
+    }
+  }
+  return index
+}
+console.log(largeNum(indexHighestNumber))
 // STRETCH Challenges
 
 // Create a function that takes in two arrays and returns one array with no duplicate values.
