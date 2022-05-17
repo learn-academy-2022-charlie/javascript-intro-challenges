@@ -50,13 +50,12 @@ console.log(oddArray(testArr2))
 
 const lettersOnly = (array) => {
     for(let i = 0; i < array.length; i++){
-    if(array[i] === string){
-        lettersOnly.push(array)
+    if(array[i] % 2 !== 0){
+        lettersOnly.push(array.join(""))
     }
     }
 }
-    console.log(typeof 7)
-        console.log(typeof "k")
+    console.log(typeof "lettersOnly")
 
 
 
